@@ -1,0 +1,22 @@
+.back-seccion1 {
+  background-image: url("../images/1920x665-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.logo {
+  height: 30px; }
+
+.margen {
+  margin-top: 100px !important; }
+
+button {
+  border-radius: 25px; }
+
+section .azul {
+  color: white;
+  background-color: blue; }
+section .transparente {
+  color: black;
+  background-color: white; }
+
+/*# sourceMappingURL=main.css.map */
