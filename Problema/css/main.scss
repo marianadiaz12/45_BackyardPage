@@ -1,27 +1,54 @@
-.back-seccion1 {
+$pad5 : 5% ;
+$margin: 100px;
+$logo: 30px;
+$blue: #2ECCFA;
+$border: 1px solid $blue;
+$font-bol: bolder;
+$margin-top: 5%;
+$gray: #ECECEC;
+
+.banner {
   	background-image: url("../images/1920x665-1.jpg");
   	background-size: cover;
-  	background-repeat: no-repeat; }
+	background-repeat: no-repeat;
+	background-position: center;
+    padding: $pad5;
+    }
 .logo{
-	height: 30px;
+	height: $logo;
 }
-
-$margin: 100px;
-
+.titulo{
+  color: white !important; 
+}
 .margen{
 	margin-top: $margin !important;
 }
 
 button {
-  	border-radius: 25px; 
+  	border-radius: 25px !important;
 }
 section{ 
-	.azul {
-    color: white;
-    background-color: blue; }
-.transparente {
-    color: black;
-    background-color: white; }
+	.btn-primary{
+		background-color: $blue;
+		font-weight: $font-bol;
+		border: $border;
+	}
+	.transparente {
+	    border: $border;
+	    color: $blue;
+	    background: transparent !important;
+		font-weight: $font-bol;
+	}
+}
+.icon{
+	border: $border;
+ 	border-radius:50%;
+ 	color: $blue;
+ 	padding: 5px;
+ 	margin-top: $margin-top;
+}
+.gray{
+	background-color: $gray;
 }
 
 

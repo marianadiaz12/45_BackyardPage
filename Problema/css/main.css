@@ -1,22 +1,40 @@
-.back-seccion1 {
+.banner {
   background-image: url("../images/1920x665-1.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5%; }
 
 .logo {
   height: 30px; }
+
+.titulo {
+  color: white !important; }
 
 .margen {
   margin-top: 100px !important; }
 
 button {
-  border-radius: 25px; }
+  border-radius: 25px !important; }
 
-section .azul {
-  color: white;
-  background-color: blue; }
+section .btn-primary {
+  background-color: #2ECCFA;
+  font-weight: bolder;
+  border: 1px solid #2ECCFA; }
 section .transparente {
-  color: black;
-  background-color: white; }
+  border: 1px solid #2ECCFA;
+  color: #2ECCFA;
+  background: transparent !important;
+  font-weight: bolder; }
+
+.icon {
+  border: 1px solid #2ECCFA;
+  border-radius: 50%;
+  color: #2ECCFA;
+  padding: 5px;
+  margin-top: 5%; }
+
+.gray {
+  background-color: #ECECEC; }
 
 /*# sourceMappingURL=main.css.map */
